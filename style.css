@@ -1,0 +1,100 @@
+
+
+body {
+	background-color: #FDFDFD;
+}
+
+* {
+	color: #323232;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #433440;
+}
+
+/*REQUIREMENT 3*/
+a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+#show {
+	text-decoration: underline;
+}
+
+li > a {
+	display: block;
+}
+
+/*BOX MODEL - REQUIREMENT 1*/ 
+/*REQUIREMENT 3*/
+.navi >  ul {
+	position: fixed;
+	float: left;
+	border: 5px solid #3C3D3D;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+	margin-right: 10px;
+}
+
+/*REQUIREMENT 2*/
+.navi {
+	float: left; 
+	width: 180px; 
+       	display: inline-block; 
+	border: 1px solid #515355;
+}
+
+/*REQUIREMENT 2*/
+.other {
+	float: right;
+	display: inline-block;
+	word-wrap: break-word;
+	width: 80%;	
+}
+
+#cards {
+	height: 80px;
+	width: 75px;
+	border: 1px solid black;
+	margin: 2px 2px 2px 2px;
+}
+
+/*REQUIREMENT 1*/
+.title {
+	border: 2px solid white;
+	padding: 10px 0px 10px 5px;
+	margin-left: 5px;
+	width: 500px;
+	display: block;
+}
+
+.corner {
+	border: 1px solid #323232;
+	padding: 2px 2px 2px 2px;
+	position: absolute;
+	top: 4px;
+	right: 10px;
+	font-size: 90%;
+}
+
+.corner2 {
+	border: 1px solid white;
+	padding: 2px 2px 2px 2px;
+	position: absolute;
+	top: 4px;
+	left: 10px;
+	font-size: 90%;
+}
+
+label {
+	display: inline-block;
+	text-align: justify;
+	width: 14em;
+}
+
